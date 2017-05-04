@@ -11,7 +11,7 @@ import com.github.tq.easyexcel.annotation.Cell;
 import com.github.tq.easyexcel.entity.EntityCell;
 
 /**
- * Created by tianque on 2017/4/20.
+ * Created by nijun on 2017/4/20.
  */
 public class CellHelper {
 

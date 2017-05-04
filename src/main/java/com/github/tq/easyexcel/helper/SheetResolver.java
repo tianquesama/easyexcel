@@ -9,7 +9,7 @@ import com.github.tq.easyexcel.entity.EntityCell;
 import com.github.tq.easyexcel.entity.EntitySheet;
 
 /**
- * Created by tianque on 2017/4/18.
+ * Created by nijun on 2017/4/18.
  */
 public class SheetResolver {
 

@@ -1,12 +1,12 @@
 package com.github.tq.easyexcel.annotation;
 
-import org.apache.poi.ss.usermodel.CellType;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
+import org.apache.poi.ss.usermodel.CellType;
+
 /**
- * Created by tianque on 2017/4/18.
+ * Created by nijun on 2017/4/18.
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Cell {
@@ -18,4 +18,6 @@ public @interface Cell {
     String title() default "";
 
     String dateFormatPattern() default "yyyy/MM/dd HH:mm:ss";
+
+    String errorValue() default "";
 }

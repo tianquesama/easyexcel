@@ -1,8 +1,8 @@
 package com.github.tq.easyexcel;
 
-import com.github.tq.easyexcel.annotation.Cell;
-
 import java.util.Date;
+
+import com.github.tq.easyexcel.annotation.Cell;
 
 /**
  * Created by nijun on 2017/4/26.
@@ -15,13 +15,25 @@ public class XlsBean {
     private Date date;
 
     @Cell(title = "啦啦啦啦")
-    private int i;
+    private Integer i;
 
-    @Cell
+    @Cell(errorValue = "88")
     private long l;
 
     @Cell
-    private boolean b;
+    private Boolean b;
+
+
+
+
+
+
+
+
+
+
+
+
 
     public String getSs() {
         return ss;

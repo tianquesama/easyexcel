@@ -15,7 +15,7 @@ import com.github.tq.easyexcel.validator.Validator;
  */
 public class ExcelHelper {
 
-    private Validator<Sheet, Boolean> defaultValidator = (sheet -> sheet.getLastRowNum() >= 0);
+    private Validator<Sheet, Boolean> defaultValidator = (sheet -> sheet != null && sheet.getLastRowNum() >= 0);
 
     public static <T> OutputStream write(Class<T> clazz, List<T> rows, OutputStream os) throws IOException {
         return ExcelResolverFactory.singleSheetResolver.write(clazz, rows, os);

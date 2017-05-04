@@ -1,7 +1,7 @@
 package com.github.tq.easyexcel.exception;
 
 /**
- * Created by tianque on 2017/4/24.
+ * Created by nijun on 2017/4/24.
  */
 public class InvalidBeanException extends RuntimeException {
 
